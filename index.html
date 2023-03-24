@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook- log in or sign up</title>
+    <style>
+        body{
+            background-color:#f0f2f5;
+            width:100vw;
+            height:100vh;
+        }
+        .logo{
+            position:absolute;
+            margin-top:160px;
+            margin-left:180px;
+        }
+        .logo img{
+            width:302px; 
+            height:106px;
+        }
+        .text{
+            color:#1c1e21;
+            font-size:28px;
+            font-family:Helvetica,Arial;
+            position:absolute;
+            margin-left:210px;
+            margin-top:260px;
+        }
+        .box{
+            float:right;
+            width:396px;
+            height:360px;
+            background-color:#ffff;
+            border-radius:10px;
+            margin-right:130px;
+            margin-top:96px;
+            padding:2px;
+        }
+        input[type="text"]{
+            padding:14px 16px;
+            width:93%;
+            height:42px;
+            margin:10px;
+            padding:3px;
+            border-color: rgb(250, 246, 246); 
+            border-radius:5px;
+            color:black;
+            background-color:#ffff;
+            font-size:15px;
+        }
+        input[type="text"]:focus{
+            outline-color:#e7f3ff;
+        }
+        input[type="password"]{
+            padding:14px 16px;
+            width:93%;
+            height:42px;
+            margin:10px;
+            padding:3px;
+            border-color: rgb(250, 246, 246); 
+            border-radius:5px;
+            color:black;
+            background-color:#ffff;
+            font-size:15px;
+        }
+        input[type="password"]:focus{
+            outline-color:#e7f3ff;
+        }
+        button{
+            width:95%;
+            height:48px;
+            margin:8px 0px 21px 10px;
+            padding:0px 16px;
+            border-radius:5px;
+            color:#ffff;
+            background-color:#1877f2;
+            font-size:20px;
+            font-weight:700;
+        }
+        button:hover{
+            background-color:#0763db;
+        }
+        a:link{
+            color:#1877f2;
+            position:relative;
+            left:130px;
+            font-weight:400;
+font-size:15px;
+text-decoration:none;
+margin:0px 0px 0px 0px;
+
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+        hr{
+            width:95%;
+            margin:16px;
+        }
+        input[type="button"]{
+            padding:0px 16px;
+            width:55%;
+            height:48px;
+            margin:13px 0px 0px 85px;
+            border-radius:5px;
+            color:#ffff;
+            background-color:#42b72a;
+            font-size:17px;
+            font-weight:500;
+        }
+        input[type="button"]:hover{
+            background-color:#22a108;
+        }
+       
+        .footer{
+            position:relative;
+            left:900px;
+            top:500px;
+            font-size:16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg ">
+    </div>
+    <div class="text">Facebook helps you connnect and share<br> with the people in your life.</div>
+    <div class="box">
+        <form>
+            <div class="name"><input type="text" name="email or phone number" placeholder="Email address or phone number"></div>
+            <div class="password"><input type="password" name="password" placeholder="Password"></div>
+            <div class="login-btn"><button>Log In</button></div>
+            <div class="link"><a href="#">Forgotten password?</a></div><hr>
+            <div class="create-btn"><input type="button" value="Create New Account"></div>
+        </form>
+    </div>
+    <div class="footer"><b>Create a Page</b> for a celebrity, brand or buisness.</div>
+</body>
+</html>
